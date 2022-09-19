@@ -26,7 +26,7 @@ git --version
 
 # Genarate SSH key
 ~~~
-ssh-keygen -t rsa -b 4096 -C "your email"
+$ ssh-keygen -t ed25519 -C "your_email@gmail.com"
 ~~~
 now go to <strong>home/.ssh</strong> and open the <strong>id_rsa.pub</strong> and copy that whole text and create a SSH key with that text
 
